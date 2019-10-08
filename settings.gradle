@@ -1,0 +1,2 @@
+rootProject.name='SmartShell'
+include ':app'
