@@ -170,6 +170,7 @@
     <color name="header_footer">#FF39383E</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
     <color name="line_divider_v2">#FFEAE8E8</color>
     <color name="line_divider_v3">#FFDDDCDD</color>
     <color name="load_blue">#009cfa</color>
@@ -419,8 +420,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">功能演示</string>
+    <string name="app_name">费控背夹</string>
     <string name="button_scan">扫描设备</string>
+    <string name="label_name">功能演示</string>
     <string name="none_found">未找到设备</string>
     <string name="none_paired">没有配对设备</string>
     <string name="scanning">寻找设备...</string>
@@ -1935,6 +1937,11 @@
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
     <style name="Widget.Compat.NotificationActionContainer" parent=""/>
     <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="textViewStyle" parent="android:Widget.Holo.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:lines">1</item>
+    </style>
     <declare-styleable name="ActionBar">
         <!-- The type of navigation to use. -->
         <attr name="navigationMode">

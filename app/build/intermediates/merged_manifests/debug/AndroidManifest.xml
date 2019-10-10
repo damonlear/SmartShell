@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.csg.smartshell.demo"
+    package="com.smartshell.infrared"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.csg.smartshell.demo.AndroidApplication"
+        android:name="com.smartshell.infrared.AndroidApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -27,19 +27,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.csg.smartshell.demo.SplashActivity" >
+        <activity android:name="com.smartshell.infrared.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.csg.smartshell.demo.MainActivity" />
-        <activity android:name="com.csg.smartshell.demo.ui.bluetooth.DeviceListActivity" />
+        <activity
+            android:name="com.smartshell.infrared.MainActivity"
+            android:label="@string/label_name" />
+        <activity android:name="com.smartshell.infrared.ui.bluetooth.DeviceListActivity" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.csg.smartshell.demo.lifecycle-process"
+            android:authorities="com.smartshell.infrared.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

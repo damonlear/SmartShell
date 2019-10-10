@@ -1,9 +1,5 @@
 [
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -12,12 +8,36 @@
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_red.xml"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_activity.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\main_activity.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\scan.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\scan.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\psam.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
@@ -28,10 +48,6 @@
         "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle_yellow.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_yellow.xml"
-    },
-    {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -40,28 +56,40 @@
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\psam.png"
+    },
+    {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle_blue.xml.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_blue.xml"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ir.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_csg.png.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable-xhdpi\\ic_csg.png"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_item_selector.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\bg_item_selector.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_jgir.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\jgir.xml"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_foreground.xml"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_load_view.xml.flat",
@@ -72,28 +100,180 @@
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_psam.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\psam.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle_purple.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_purple.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\scan.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_list.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\activity_device_list.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_activity.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\splash_activity.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_activity.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\psam.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\psam.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_jgir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\jgir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle_yellow.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_yellow.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\psam.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ir.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_csg.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable-xhdpi\\ic_csg.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_item_selector.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\bg_item_selector.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\scan.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_scan.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\scan.xml"
+    },
+    {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_psam.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\psam.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\scan.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_circle_purple.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\drawable\\shape_circle_purple.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -108,16 +288,16 @@
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\device_name.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ir.xml.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ir.xml"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ir.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ir.png"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_fragment.xml.flat",
         "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\main_fragment.xml"
-    },
-    {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_device_list.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\activity_device_list.xml"
     },
     {
         "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -128,7 +308,11 @@
         "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_activity.xml.flat",
-        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\layout\\splash_activity.xml"
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "H:\\20190819______\\SmartShell\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scan.png.flat",
+        "source": "H:\\20190819______\\SmartShell\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\scan.png"
     }
 ]

@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.csg.smartshell.demo"
+3    package="com.smartshell.infrared"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -34,7 +34,7 @@
 18
 19    <application
 19-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:13:5-32:19
-20        android:name="com.csg.smartshell.demo.AndroidApplication"
+20        android:name="com.smartshell.infrared.AndroidApplication"
 20-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:14:9-43
 21        android:allowBackup="true"
 21-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:15:9-35
@@ -52,7 +52,7 @@
 28        android:testOnly="true"
 29        android:theme="@style/AppTheme" >
 29-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:20:9-40
-30        <activity android:name="com.csg.smartshell.demo.SplashActivity" >
+30        <activity android:name="com.smartshell.infrared.SplashActivity" >
 30-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:22:9-28:20
 30-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:22:19-49
 31            <intent-filter>
@@ -66,23 +66,26 @@
 34-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:26:27-74
 35            </intent-filter>
 36        </activity>
-37        <activity android:name="com.csg.smartshell.demo.MainActivity" />
-37-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:30:9-50
-37-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:30:19-47
-38        <activity android:name="com.csg.smartshell.demo.ui.bluetooth.DeviceListActivity" />
-38-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:31:9-69
-38-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:31:19-66
-39
-40        <provider
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-42            android:authorities="com.csg.smartshell.demo.lifecycle-process"
-42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-43            android:exported="false"
-43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-44            android:multiprocess="true" />
-44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-45    </application>
-46
-47</manifest>
+37        <activity
+37-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:30:9-84
+38            android:name="com.smartshell.infrared.MainActivity"
+38-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:30:19-47
+39            android:label="@string/label_name" />
+39-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:30:48-82
+40        <activity android:name="com.smartshell.infrared.ui.bluetooth.DeviceListActivity" />
+40-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:31:9-69
+40-->H:\20190819______\SmartShell\app\src\main\AndroidManifest.xml:31:19-66
+41
+42        <provider
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+44            android:authorities="com.smartshell.infrared.lifecycle-process"
+44-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+45            android:exported="false"
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+46            android:multiprocess="true" />
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\damon\.gradle\caches\transforms-2\files-2.1\4f0441c8b9bb1a3544aafe878f918695\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+47    </application>
+48
+49</manifest>

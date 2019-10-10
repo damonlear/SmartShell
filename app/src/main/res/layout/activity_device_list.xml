@@ -42,7 +42,7 @@
                 android:textStyle="bold"
                 android:visibility="gone" />
 
-            <com.csg.smartshell.demo.ui.view.NoScrollListView
+            <com.smartshell.infrared.ui.view.NoScrollListView
                 android:id="@+id/paired_devices"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                 android:textStyle="bold"
                 android:visibility="gone" />
 
-            <com.csg.smartshell.demo.ui.view.NoScrollListView
+            <com.smartshell.infrared.ui.view.NoScrollListView
                 android:id="@+id/new_devices"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

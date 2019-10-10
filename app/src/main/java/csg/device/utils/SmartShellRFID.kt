@@ -1,7 +1,7 @@
 package csg.device.utils
 
 import android.content.Context
-import com.csg.smartshell.demo.AndroidApplication
+import com.smartshell.infrared.AndroidApplication
 import com.smartshell.listener.CallbackListener
 import com.smartshell.listener.RFIDListener
 import java.util.concurrent.CountDownLatch
@@ -39,16 +39,10 @@ class SmartShellRFID private constructor() : SmartShellBT() {
         get() = Status.CLOSE
         set(value) {}
 
-    lateinit var smartshellRFIDAPI: com.smartshell.api.SmartshellRFIDAPI
-
-    init {
-        smartshellRFIDAPI = com.smartshell.api.SmartshellRFIDAPI.getInstance(mContext)
-    }
-
     override fun init() {
         val lock = CountDownLatch(1)
         logger.error("{}", macAddress)
-        smartshellRFIDAPI.onStart("98:D3:31:F3:15:C5", object : CallbackListener {
+        smartshellRFIDAPI.onStart(macAddress, object : CallbackListener {
             override fun callback(isConnection: Boolean, result: String?) {
                 state = if (isConnection) {
                     Status.OPEN
@@ -64,7 +58,7 @@ class SmartShellRFID private constructor() : SmartShellBT() {
     }
 
     override fun deinit() {
-        smartshellRFIDAPI.close()
+        smartshellRFIDAPI.onStop()
         state = Status.CLOSE
     }
 

@@ -13,6 +13,10 @@ abstract class SmartShellBT : Driver(){
     companion object{
         public val SPF_MAC_ADDRESS = "bluetooth.mac"
     }
+    lateinit var smartshellRFIDAPI: com.smartshell.api.SmartshellPowerAPI
+    init {
+        smartshellRFIDAPI = com.smartshell.api.SmartshellPowerAPI.getInstance(mContext)
+    }
 
 
 }

@@ -1,4 +1,4 @@
-com.csg.smartshell.demo
+com.smartshell.infrared
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -419,6 +419,7 @@ color header_V2
 color header_footer
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color line_divider_v2
 color line_divider_v3
 color load_blue
@@ -679,6 +680,8 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_csg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ir
+drawable jgir
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -691,6 +694,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable psam
+drawable scan
 drawable shape_circle_blue
 drawable shape_circle_purple
 drawable shape_circle_red
@@ -762,7 +767,11 @@ id async
 id barrier
 id beginning
 id blocking
+id bodyLayout
 id bottom
+id bottomLayout
+id btnClean
+id btnSetting
 id buttonPanel
 id button_scan
 id center_vertical
@@ -771,7 +780,6 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
-id container
 id content
 id contentPanel
 id custom
@@ -798,16 +806,21 @@ id ifRoom
 id image
 id info
 id invisible
+id ir
 id italic
+id iv
 id iv_logo
 id iv_slogo
+id jgir
 id left
 id line1
 id line3
 id listMode
 id list_item
-id load_view
 id main
+id main_content
+id main_mac
+id main_title
 id message
 id middle
 id multiply
@@ -827,10 +840,12 @@ id parentPanel
 id percent
 id progress_circular
 id progress_horizontal
+id psam
 id radio
 id right
 id right_icon
 id right_side
+id scan
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -846,6 +861,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id setbluetooth
 id shortcut
 id showCustom
 id showHome
@@ -882,6 +898,7 @@ id title_paired_devices
 id title_template
 id top
 id topPanel
+id tvResult
 id unchecked
 id uniform
 id up
@@ -930,6 +947,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_device_list
+layout activity_main
 layout custom_dialog
 layout device_name
 layout item
@@ -948,6 +966,8 @@ layout splash_activity
 layout support_simple_spinner_dropdown_item
 layout widget_load_view
 mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -978,6 +998,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string button_scan
+string label_name
 string none_found
 string none_paired
 string scanning
@@ -1336,6 +1357,7 @@ style Widget_AppCompat_Toolbar
 style Widget_AppCompat_Toolbar_Button_Navigation
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
+style textViewStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

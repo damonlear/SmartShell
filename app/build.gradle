@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.csg.smartshell.demo"
+        applicationId "com.smartshell.infrared"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
@@ -40,4 +40,5 @@ dependencies {
     implementation("com.github.tony19:logback-android:2.0.0")
     /* BLUETOOTH */
     implementation files('libs/SmartshellBT.jar')
+    implementation 'tyrantgit:explosionfield:1.0.1'
 }

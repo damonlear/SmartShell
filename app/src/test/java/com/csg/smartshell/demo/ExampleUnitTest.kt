@@ -1,4 +1,4 @@
-package com.csg.smartshell.demo
+package com.smartshell.infrared
 
 import org.junit.Test
 
