@@ -4,14 +4,15 @@ import android.app.Activity
 import android.bluetooth.BluetoothAdapter
 import android.content.Intent
 import android.os.Bundle
-import android.view.KeyEvent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.smartshell.api.SmartshellPowerAPI
+import com.smartshell.infrared.bean.PsamInfo
 import com.smartshell.infrared.ui.bluetooth.DeviceListActivity
 import com.smartshell.infrared.ui.view.toast
-import com.smartshell.api.SmartshellPowerAPI
 import com.smartshell.listener.CallbackListener
 import com.smartshell.listener.ElectricListener
+import com.smartshell.listener.PowerListener
 import com.smartshell.listener.QRBarCodeListener
 import csg.device.utils.SmartShellBT
 import kotlinx.android.synthetic.main.main_activity.*
@@ -19,6 +20,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import org.slf4j.LoggerFactory
+import android.text.TextUtils
 
 
 class MainActivity : AppCompatActivity() {
@@ -167,18 +169,82 @@ class MainActivity : AppCompatActivity() {
         smartshellPowerAPI.setElectricListener(object : ElectricListener {
             //psam
             override fun onEncryptResult(p0: Int, p1: ByteArray?) {
-                setResult("安全数据交互模块：${p1?.toHexString()}")
+                setResult("安全数据交互模块接收：${p1?.toHexString()}")
+                try {
+                    val psamInfo = PsamInfo.parse(p1!!)
+                    appendResult(
+                        "\r\n" +
+                                "安全数据加密模块信息\r\n" +
+                                "${if (PsamInfo.isPublicKey(psamInfo)) {
+                                    "未发行芯片"
+                                } else {
+                                    "已发行芯片"
+                                }}:\r\n" +
+                                "芯片软件版本：${psamInfo.softwareVersion}\r\n" +
+                                "芯片硬件版本：${psamInfo.hardwareVersion}\r\n" +
+                                "C-ESAM序列号：${psamInfo.cesamSeq}\r\n" +
+                                "Y-ESAM序列号：${psamInfo.yesamSeq}\r\n" +
+                                "C-ESAM对称密钥密钥版本：${psamInfo.cesamKeyVersion}\n" +
+                                "Y-ESAM对称密钥密钥版本：${psamInfo.yesamKeyVersion}\r\n"
+                    )
+                } catch (e: Throwable) {
+                }
             }
 
             //红外
             override fun onPowerResult(p0: Int, p1: ByteArray?) {
-                setResult("红外：${p1?.toHexString()}")
+                setResult("红外接收：${p1?.toHexString()}")
+            }
+        })
+        smartshellPowerAPI.setPowerListener(object : PowerListener{
+            override fun onSuccess(s: String?) {
+                runOnUiThread(object : Runnable {
+                    override fun run() {
+                        if (!TextUtils.isEmpty(s)) {
+                            // 电表数据
+                            var newstr = s!!
+                            newstr = newstr.replace("add:", "\n 表号");
+                            newstr = newstr.replace("T0:", "\n 当前正向有功总(kWh)");
+                            newstr = newstr.replace("T1:", "\n 当前正向有功尖(kWh)");
+                            newstr = newstr.replace("T2:", "\n 当前正向有功峰(kWh)");
+                            newstr = newstr.replace("T3:", "\n 当前正向有功平(kWh)");
+                            newstr = newstr.replace("T4:", "\n 当前正向有功谷(kWh)");
+                            newstr = newstr.replace("T5:", "\n 当前正向无功总(kvarh)");
+                            newstr = newstr.replace("T8:", "\n A相电压(v)");
+                            newstr = newstr.replace("T9:", "\n B相电压(v)");
+                            newstr = newstr.replace("TA:", "\n C相电压(v)");
+                            newstr = newstr.replace("TB:", "\n A相电流(v)");
+                            newstr = newstr.replace("TC:", "\n B相电流(v)");
+                            newstr = newstr.replace("TD:", "\n C相电流(v)");
+                            newstr = newstr.replace("R0:", "\n 当前反向有功总(kWh)");
+                            newstr = newstr.replace("R1:", "\n 当前反向有功尖(kWh)");
+                            newstr = newstr.replace("R2:", "\n 当前反向有功峰(kWh)");
+                            newstr = newstr.replace("R3:", "\n 当前反向有功平(kWh)");
+                            newstr = newstr.replace("R4:", "\n 当前反向有功谷(kWh)");
+                            newstr = newstr.replace("R5:", "\n 当前反向无功总(kvarh)");
+                            newstr = newstr.replace("X0:", "\n 最近冻结正向有功总(kWh)");
+                            newstr = newstr.replace("X1:", "\n 最近冻结正向有功尖(kWh)");
+                            newstr = newstr.replace("X2:", "\n 最近冻结正向有功峰(kWh)");
+                            newstr = newstr.replace("X3:", "\n 最近冻结正向有功平(kWh)");
+                            newstr = newstr.replace("X4:", "\n 最近冻结正向有功谷(kWh)");
+                            appendResult("数据解析：\n$newstr")
+                        }
+                    }
+                });
+            }
+
+            override fun onFail(p0: Int, p1: String?) {
+                runOnUiThread {
+                    if (!p1.isNullOrBlank()){
+                        setResult("\n${p0}:${p1}")
+                    }
+                }
             }
         })
         //扫码
         smartshellPowerAPI.setQRBarCodeListener(object : QRBarCodeListener {
             override fun onResult(p0: Int, p1: String?, p2: MutableList<String>?) {
-                setResult("扫码：${p2?.get(0)}")
+                setResult("扫码接收：${p2?.get(0)}")
             }
         })
         smartshellPowerAPI.sendCommandOnOpenKey()
@@ -288,6 +354,12 @@ class MainActivity : AppCompatActivity() {
     fun setResult(s: String) {
         GlobalScope.launch(Dispatchers.Main) {
             tvResult.text = s
+        }
+    }
+
+    fun appendResult(s: String) {
+        GlobalScope.launch(Dispatchers.Main) {
+            tvResult.append(s)
         }
     }
 
